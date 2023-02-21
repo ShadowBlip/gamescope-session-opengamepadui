@@ -1,0 +1,7 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Gamescope OGUI
+Comment=Gamescope Steam session with OpenGamepadUI QAM 
+Exec=gamescope-ogui-qam-session
+Type=Application
+DesktopNames=gamescope
