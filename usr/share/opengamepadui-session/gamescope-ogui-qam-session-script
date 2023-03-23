@@ -162,7 +162,7 @@ if [ -z "$STEAMCMD" ] ; then
     STEAMCMD="steam -gamepadui -steamos3 -steampal -steamdeck"
 fi
 if [ -z "$OGUICMD" ] ; then
-    OGUICMD="opengamepadui --only-qam $STEAMCMD"
+    OGUICMD="opengamepadui --only-qam -- $STEAMCMD"
 fi
 
 if [ -z "$GAMESCOPECMD" ] ; then
