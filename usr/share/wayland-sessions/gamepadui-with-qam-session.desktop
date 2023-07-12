@@ -2,6 +2,6 @@
 Encoding=UTF-8
 Name=Gamescope OGUI
 Comment=Gamescope Steam session with OpenGamepadUI QAM 
-Exec=gamescope-ogui-qam-session
+Exec=gamepadui-with-qam-session
 Type=Application
 DesktopNames=gamescope
