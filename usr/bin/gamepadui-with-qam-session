@@ -17,8 +17,8 @@ systemctl --user set-environment XDG_DESKTOP_PORTAL_DIR=""
 systemctl --user unset-environment DISPLAY XAUTHORITY
 
 # If this shell script is killed then stop opengamepadui-session
-trap 'systemctl --user stop gamescope-ogui-qam-session.service' HUP INT TERM
+trap 'systemctl --user stop gamepadui-with-qam-session.service' HUP INT TERM
 
 # Start session and wait
-systemctl --user --wait start gamescope-ogui-qam-session.service &
+systemctl --user --wait start gamepadui-with-qam-session.service &
 wait
