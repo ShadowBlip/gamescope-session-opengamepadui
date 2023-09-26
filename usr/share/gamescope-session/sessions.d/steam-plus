@@ -1,0 +1,7 @@
+#!/bin/bash
+
+STEAM_SESSION_FILE=/usr/share/gamescope-session/sessions.d/steam
+[[ -f "${STEAM_SESSION_FILE}" ]] && . "${STEAM_SESSION_FILE}"
+
+CURSOR_FILE="${HOME}/.local/share/Steam/tenfoot/resource/images/cursors/arrow_right.png"
+CLIENTCMD="opengamepadui --only-qam -- $CLIENTCMD"

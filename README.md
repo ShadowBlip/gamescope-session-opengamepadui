@@ -1,8 +1,7 @@
 # OpenGamepadUI session
 
 This project is not affiliated with Valve (wide inspiration was taken from
-their work on the SteamDeck). This configuration is heavily based on
-the [gamescope-session](https://raw.githubusercontent.com/ChimeraOS/gamescope-session)
+their work on the SteamDeck). This configuration depends on [gamescope-session](https://raw.githubusercontent.com/ChimeraOS/gamescope-session)
 from the ChimeraOS project.
 
 ## Basic manual setup
@@ -18,7 +17,7 @@ and set variables there:
 
 ```
 # Override entire OpenGamepadUI command line
-OGUICMD="opengamepadui --only-qam"
+CLIENTCMD="opengamepadui --only-qam"
 
 # Override the entire Gamescope command line
 # This will not use screen and render sizes
