@@ -2,6 +2,6 @@
 Encoding=UTF-8
 Name=OpenGamepadUI
 Comment=OpenGamepadUI Session
-Exec=opengamepadui-session
+Exec=gamescope-session opengamepadui
 Type=Application
 DesktopNames=gamescope

@@ -1,7 +1,7 @@
 [Desktop Entry]
 Encoding=UTF-8
-Name=Gamescope OGUI
+Name=Steam Big Picture Plus
 Comment=Gamescope Steam session with OpenGamepadUI QAM 
-Exec=gamepadui-with-qam-session
+Exec=gamescope-session steam-plus
 Type=Application
 DesktopNames=gamescope
