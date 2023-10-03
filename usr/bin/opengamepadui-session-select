@@ -70,7 +70,7 @@ case "$session" in
     session_launcher="gamescope-wayland.desktop"
   ;;
   opengamepadui)
-    session_launcher="opengamepadui-session.desktop"
+    session_launcher="gamescope-session-opengamepadui.desktop"
   ;;
   *)
     echo >&2 "!! Unrecognized session '$session'"
