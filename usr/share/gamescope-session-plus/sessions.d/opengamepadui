@@ -1,4 +1,13 @@
 #!/bin/bash
 
+function short_session_recover {
+	# change session to desktop as fallback
+	if which steamos-session-select 2>&1 >/dev/null; then
+		steamos-session-select desktop
+	elif which opengamepadui-session-select 2>&1 >/dev/null; then
+		opengamepadui-session-select plasma
+	fi
+}
+
 CURSOR_FILE="${HOME}/.local/share/Steam/tenfoot/resource/images/cursors/arrow_right.png"
 CLIENTCMD="opengamepadui"
