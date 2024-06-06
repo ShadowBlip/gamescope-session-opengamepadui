@@ -56,15 +56,15 @@ fi
 
 case "$session" in
 plasma-wayland-persistent)
-	systemctl stop inputplumber || true
+	systemctl disable --now inputplumber || true
 	session_launcher="plasmawayland.desktop"
 	;;
 plasma-x11-persistent)
-	systemctl stop inputplumber || true
+	systemctl disable --now inputplumber || true
 	session_launcher="plasma.desktop"
 	;;
 plasma)
-	systemctl stop inputplumber || true
+	systemctl disable --now inputplumber || true
 	if [[ "$session_type" == "x11" ]]; then
 		session_launcher="plasma-steamos-oneshot.desktop"
 	else
@@ -73,7 +73,7 @@ plasma)
 	create_sentinel=1
 	;;
 gamescope)
-	systemctl stop inputplumber || true
+	systemctl disable --now inputplumber || true
 	session_launcher="gamescope-wayland.desktop"
 	;;
 opengamepadui)
